@@ -67,6 +67,10 @@
     de adição de uma nova venda.
 
 # Estrutura:
+
+  # database:
+    Essa pasta contém o arquivo "db.sqlite3", que nada mais é que o banco de dados do projeto em sqlite, caso queira um banco limpo,
+    ou seja sem nenhum registro prévio, basta apagar o arquivo "db.sqlite3", que na próxima execução da api, será gerado um novo.
   
   # app.py:
     Nesse arquivo são definidas as rotas da aplicação, levando até seus end points.
